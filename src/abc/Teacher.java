@@ -3,7 +3,14 @@ package abc;
 public class Teacher {
 	private String teacher_id;
 	private String teacher_name;
+	private String teacher_gender;
 	private Student[] students;
+	public String getTeacher_gender(){
+		return teacher_gender;
+	}
+	public void setTeacher_gengder(String teacher_gender){
+		this.teacher_gender = teacher_gender;
+	}
 	public String getTeacher_id() {
 		return teacher_id;
 	}
